@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.proetosiscalan.feature.perfia"
+    namespace = "com.example.proetosiscalan.feature"
     compileSdk {
         version = release(37)
     }
@@ -23,6 +23,7 @@ android {
 dependencies {
     implementation(libs.appcompat)
     implementation(libs.material)
+    implementation(libs.activity.ktx)
 
     // Bibliotecas trazidas do projeto antigo (Retrofit, Gson e Glide)
     implementation("com.squareup.retrofit2:retrofit:2.11.0")

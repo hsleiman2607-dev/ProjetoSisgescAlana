@@ -1,4 +1,4 @@
-package com.example.proetosiscalan.feature.perfia;
+package com.example.proetosiscalan.feature;
 
 import org.junit.Test;
 

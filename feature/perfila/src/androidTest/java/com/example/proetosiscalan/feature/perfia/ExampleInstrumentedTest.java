@@ -1,4 +1,4 @@
-package com.example.proetosiscalan.feature.perfia;
+package com.example.proetosiscalan.feature;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.proetosiscalan.feature.perfia.test", appContext.getPackageName());
+        assertEquals("com.example.proetosiscalan.feature.test", appContext.getPackageName());
     }
 }
