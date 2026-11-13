@@ -30,8 +30,8 @@ public class MainActivity extends AppCompatActivity {
         cardAluno.setOnClickListener(v -> {
             Toast.makeText(this, "Abrindo Perfil Aluno...", Toast.LENGTH_SHORT).show();
             // Quando importar o módulo do Aluno, descomente as linhas abaixo:
-            // Intent intent = new Intent(MainActivity.this, TelaInicialAlunoActivity.class);
-            // startActivity(intent);
+            Intent intent = new Intent(MainActivity.this, com.example.projetosisgescalana.featureperfilb.MainActivity.class);
+            startActivity(intent);
         });
 
         // 2. Card Professor / Mentor

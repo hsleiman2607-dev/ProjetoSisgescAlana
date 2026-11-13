@@ -24,6 +24,12 @@ dependencies {
     implementation(libs.appcompat)
     implementation(libs.material)
     testImplementation(libs.junit)
+
+    // Bibliotecas de Rede e Imagens (Retrofit, Gson e Glide)
+    implementation("com.squareup.retrofit2:retrofit:2.11.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.11.0")
+    implementation("com.github.bumptech.glide:glide:4.16.0")
+
     androidTestImplementation(libs.espresso.core)
     androidTestImplementation(libs.ext.junit)
 }
